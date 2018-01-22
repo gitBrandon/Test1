@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
-        <script>
-            var box1 = document.createElement("inputname");
-            var box2 = document.createElement("inputfeed");
-                 box1.text = ("Please type your name here")
-                 box2.text = ("please type your news here")
-        </script>
+
 <head>
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap-theme.css">
@@ -18,54 +13,20 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="index.js"></script>
-    My News Feed
 </head>
 <br>
-
-
 </br>
 
-<body style="line-height: 30px; width: 300px; border: 1px solid black";> 
-   name
-<br>
-
-
-</br> 
-   <textareaname style="border: 1px solid black";>please enter your name here</textareaname>
-<br>
-
-
-</br>
-
-
-
-</br>
-news
-<br>
-
-
-</br>     
-   <textareanews style="border: 1px solid black">please enter your news here</textareanews>
-<br>
-
-
-</br> 
-    <button id="btn"">
-         post news
-    </button>
-<br>
-
-    <textarea1>news1</textarea1>
-<br>
-
-
-</br> 
-     <textarea2>news2</textarea2>
-<br>
-
-
-</br> 
-      <textarea3>news3</textarea3>
+<body>
+    <h3>My News Feed</h3>
+    <label>Name</label>
+    <input id="name">
+    <label>Color</label>
+    <input type="color" id="color">
+    <label>News</label>
+    <textarea id="news"></textarea>
+    <button type="button" id="add-news">Post News</button>
+    <div id="news-feed"></div>
 </body>
 
 </html>
